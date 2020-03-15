@@ -1,0 +1,64 @@
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+  
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgimg-1 {
+  background-image: url('pf4.jpg');
+  min-height: 100%;
+  min-width: 100%;
+  font-style: normal;
+  font-size: 40pt;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: oblique;
+  font-weight: bolder;
+  font-stretch: normal;
+  
+}
+
+.bgimg-2 {
+  background-image: url("1.jpg");
+  min-height: 400px;
+}
+
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+
+#portfolio{
+
+    background:dusty pink;
+}
+
+#pic{
+    height: 200px;
+    background: tan;
+    transition: 0.3s;
+
+}
+
+#gallery{  
+  background: peachpuff;
+
+}
+
+
